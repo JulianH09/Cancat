@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+@font-face {
+    font-family: holyfat;
+    src: url(../Fonts/Holyfat.ttf);
+}
+
+.text-holyfat{
+    font-family: holyfat;
+    font-size: 40px;
+}
+
+.nav-link{
+    color: #00db00 ;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #00db00;
+}
+
+.barra-menu{
+    background: #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 70px;
+}
+
+/* Clases perro, txt y btn */
+
+.strong{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.btn{
+    background-color: #00db00 !important;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.btn:hover{
+    background-color: #54e406 !important;
+}
+
+h1{
+    color: #00db00;
+}
+
+h3{
+    color: #00db00;  
+}
+
+.color-secundary{
+    font-size: 20px;
+    color: #35bbd3;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+/*Fin de clases perro, txt y btn */
+
+/* Objetivo y video */
+
+.titulo{
+    font-family: holyfat;
+    background-color:  rgba(255, 255, 255, 0.589);
+}
+
+.titulo-color{
+    color: #00db00;
+    font-size: 40px;
+}
+
+.parrafo{
+    background-color: #4cda009f;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.2rem;
+}
+
+/* Fin de bjetivo y video */
+
+/* Fotos y temas */
+
+/* Fin de fotos y temas */
+
+/* Beneficios */
+
+.font-bene{
+    font-family: holyfat;
+}
+
+/* Fin de beneficios */
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.redes{
+    width: 3rem;
+}
+
+.iconoss{
+    transition: all 0.08s ease;
+}
+
+.iconoss:hover{
+    transition: all 0.08s ease;
+    filter: opacity(50%);
+    cursor: pointer;
+}
+
+/* Footer */
+
